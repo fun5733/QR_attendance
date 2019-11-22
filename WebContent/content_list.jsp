@@ -135,7 +135,7 @@ function change_c(){
 		ResultSet rs = stmt.executeQuery();
 		String cid="";
 %>
-<div class="content">
+<div class="content" id="list_c">
 	<table border="1" id="cb">
 		<thead bgcolor="#CCCC99">
 		<tr>
