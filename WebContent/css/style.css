@@ -3,7 +3,6 @@
 h1 { font-size:1.5em; color:white; display:inline}
 body {
 	background: linear-gradient(-45deg, rgba(170,170,170,1) 0%,rgba(96,96,96,1) 100%);
-	/* background: gray; */
 	font-family:arial, "Times New Roman", sans;
 	color:white;
 }
@@ -29,11 +28,9 @@ table {
 	vertical-align:middle;
 	width:100%;
 }
-.center .content2 {
-	display:inline-block;
-	color:white;
-	vertical-align:middle;
-	width:600px;
+#list_c {
+	overflow:auto;
+	height:600px;
 }
 .center .top {
 	display:inline-block;
@@ -41,14 +38,6 @@ table {
 	height:10%;
 	vertical-align:middle;
 }
-.content {
-	display:inline-block;
-	width:100%;
-	height:100%;
-
-	vertical-align:middle;
-}
-
 .member {
 	display:inline-block;
 	width:100%;
@@ -60,14 +49,7 @@ table {
 	display:inline-block;
 	width:15%;
 }
-
-#without::-webkit-datetime-edit-ampm-field {
-	display:none;
-}
 .newData {
-	width:300px;
-}
-.newDataTime {
 	width:300px;
 }
 .attendData {
