@@ -178,8 +178,8 @@ function validateForm() {
 <%
 		}
 		long key1 = 1759, key2 = 29, key3 = 19700101;	// 암호키
-
-		String url = "http://192.168.211.233:8080/JSPDB/attendance.jsp?param=";
+		
+		String url = "http://yourURL:8080/QR_attendance-master/attendance.jsp?param=";
 		File path = new File(application.getRealPath("/") + "qrcode/images/");
 		String savedFileName = ""+cid;
 		String codePath = "";	// QR코드 png파일의 경로를 저장할 변수
